@@ -10,8 +10,12 @@ module.exports = {
         container: "1440px",
       },
       height: {
-        nav: "14%",
-        video: "86%",
+        nav: "10%",
+        video: "90%",
+      },
+      colors: {
+        background: "#F6F6F6",
+        primary: "#F5BB01",
       },
     },
   },
