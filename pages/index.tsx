@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <>
       {/* nav bar and header video */}
       <div className="h-screen">
-        <div className="bg-background">
+        <div className=" bg-background">
           <header className="container flex items-center justify-between px-4 max-w-container h-nav ">
             <Image
               src="/logo.png"
@@ -69,11 +69,11 @@ const Home: NextPage = () => {
               className="w-auto h-full"
             />
           </video>
-          <div className="absolute top-0 left-0 w-full h-full bg-red-500 opacity-70"></div>
+          <div className="absolute top-0 left-0 z-50 w-full h-full bg-opacity-50 bg-background"></div>
         </section>
       </div>
       {/* our services section */}
-      <section className="h-screen bg-background"></section>
+      <section className="h-screen "></section>
     </>
   );
 };
