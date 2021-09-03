@@ -66,10 +66,10 @@ const Home: NextPage = () => {
             <source
               src="/background.mp4"
               type="video/mp4"
-              className="w-auto h-full"
+              className="w-full "
             />
           </video>
-          <div className="absolute top-0 left-0 z-50 w-full h-full bg-opacity-50 bg-background"></div>
+          <div className="absolute top-0 left-0 z-50 w-full h-full bg-opacity-70 bg-background"></div>
         </section>
       </div>
       {/* our services section */}
