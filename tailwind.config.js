@@ -7,7 +7,7 @@ module.exports = {
     },
     extend: {
       maxWidth: {
-        container: "1440px",
+        container: "1920px",
       },
       height: {
         nav: "10%",
